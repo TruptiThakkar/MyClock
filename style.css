@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&family=Roboto&family=Ysabeau+Infant:wght@300&display=swap');
+h1{
+    color: rgb(135, 84, 145);
+font-size: 8vw;
+font-family: 'M PLUS Rounded 1c', sans-serif; 
+margin: auto;
+padding: 3vw;
+justify-content: center;
+text-align: center;
+
+}
+#clockContainer{  
+    position: relative;
+    margin: auto;
+    height: 50vw;
+    width: 50vw; 
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+}
+
+#hour, #minute, #second{
+    position: absolute;
+    background: black;
+    border-radius: 10px; 
+    transform-origin: bottom;
+}
+#hour{
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;  
+}
+#minute{
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;  
+}
+#second{
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8; 
+    
+}
